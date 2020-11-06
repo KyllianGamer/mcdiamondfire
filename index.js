@@ -5,3 +5,6 @@ var app = express();
 app.get('/update', function(req, res) {
     console.log(req.body);
 });
+
+console.log('Listening on 8888');
+app.listen(process.env.PORT || 8888);
