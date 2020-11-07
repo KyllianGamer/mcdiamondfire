@@ -3,7 +3,7 @@ const express = require('express');
 var app = express();
 
 app.post('/', function(req, res) {
-    console.log(req.query);
+    console.log(req.body);
 });
 
 console.log('Listening on 8888');
