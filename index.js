@@ -3,7 +3,7 @@ const express = require('express');
 var app = express();
 
 app.get('/', function(req, res) {
-    console.log(req.body);
+    console.log(req.query);
 });
 
 console.log('Listening on 8888');
