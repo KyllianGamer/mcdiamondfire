@@ -2,7 +2,7 @@ const express = require('express');
 
 var app = express();
 
-app.get('/', function(req, res) {
+app.post('/', function(req, res) {
     console.log(req.query);
 });
 
