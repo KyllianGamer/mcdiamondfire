@@ -21,4 +21,4 @@ app.post('/', function(req, res) {
 
 console.log('Listening on 8888');
 app.listen(process.env.PORT || 8888);
-client.login(config.TOKEN);
+client.login(process.env.TOKEN);
